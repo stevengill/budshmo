@@ -1,0 +1,90 @@
+.page {
+  color: #eee;
+}
+.hero {
+  padding: 4rem;
+  background-color: #53bf6b;
+  background-image: url('img/hero-pattern-4.svg');
+  text-align: center;
+}
+.hero-title {
+  font-family: "lato";
+  font-weight: 900;
+  font-variant: small-caps;
+  letter-spacing: 0.25rem;
+  font-size: 5rem;
+  color: inherit;
+  text-shadow: 0 2px 15px #3DA453;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.title-kern {
+    letter-spacing: -0.3rem;
+}
+.hero-tagline {
+    font-family: "lato";
+    font-style: italic;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+}
+.subscribe-form {
+    display: table;
+    margin: 0 auto;
+}
+.subscribe-input {
+    padding: 0.8rem;
+    vertical-align: top;
+    line-height: 1.35rem;
+    text-indent: 1rem;
+    font-family: "lato";
+    font-style: italic;
+    border: 1px solid #2F7F40;
+    border-right: none;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    color: #060F08;
+    box-shadow: inset 0 1px 1px #ccc,
+        0 1px 3px #19763e;
+}
+.subscribe-input::placeholder {
+    color: #ddd;
+}
+.subscribe-button {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    height: 3rem;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+    vertical-align: top;
+    font-family: "lato";
+    font-weight: bold;
+    border: 1px solid #2F7F40;
+    outline: none;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    color: #EEEEEE;
+    box-shadow: inset 0 1px 1px #24e1b4,
+        0 1px 3px #19763e;
+    text-shadow: 0 1px 1px #19763e;
+    background-color: #3ecd89;
+    -webkit-appearance: none;
+}
+
+@media screen and ( max-width: 33rem ) {
+    .hero {
+        padding-top: 3rem;
+    }
+    .hero-title {
+        font-size: 3.2rem;
+    }
+    .hero-tagline {
+        font-size: 1.25rem;
+    }
+    .title-kern {
+        letter-spacing: 0rem;
+    }
+    .subcribe-input {
+        
+    }
+}

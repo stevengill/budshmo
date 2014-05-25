@@ -1,0 +1,31 @@
+{
+  "name": "budshmo",
+  "version": "0.0.0",
+  "description": "Landing page for buds hmo",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "css": "resinate -s css/entry.css | cleancss -o bundle.css",
+    "watch": "gazer -p 'css/*.css' npm run css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stevengill/budshmo.git"
+  },
+  "author": "@dam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevengill/budshmo/issues"
+  },
+  "homepage": "https://github.com/stevengill/budshmo",
+  "dependencies": {
+    "flexboxgrid": "^3.0.1",
+    "normalize.css": "^3.0.1"
+  },
+  "devDependencies": {
+    "myth": "^1.0.3",
+    "clean-css": "^2.1.8",
+    "resinate": "^0.1.0",
+    "gazer": "0.0.3"
+  }
+}
