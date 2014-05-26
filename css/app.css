@@ -1,11 +1,16 @@
 .page {
   color: #eee;
 }
-.hero {
-  padding: 4rem;
+.page-header {
   background-color: #53bf6b;
   background-image: url('img/hero-pattern-4.svg');
   text-align: center;
+  padding-bottom: 4rem;
+}
+.hero {
+  padding-top: 4rem;
+  padding-right: 4rem;
+  padding-left: 4rem;  
 }
 .hero-title {
   font-family: "lato";
@@ -19,72 +24,72 @@
   margin-bottom: 0.5rem;
 }
 .title-kern {
-    letter-spacing: -0.3rem;
+  letter-spacing: -0.3rem;
 }
 .hero-tagline {
-    font-family: "lato";
-    font-style: italic;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    margin-bottom: 3rem;
+  font-family: "lato";
+  font-style: italic;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 3rem;
 }
 .subscribe-form {
-    display: table;
-    margin: 0 auto;
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
 }
 .subscribe-input {
-    padding: 0.8rem;
-    vertical-align: top;
-    line-height: 1.35rem;
-    text-indent: 1rem;
-    font-family: "lato";
-    font-style: italic;
-    border: 1px solid #2F7F40;
-    border-right: none;
-    border-top-left-radius: 1.5rem;
-    border-bottom-left-radius: 1.5rem;
-    color: #060F08;
-    box-shadow: inset 0 1px 1px #ccc,
-        0 1px 3px #19763e;
+  margin: 0;  
+  padding: 0.8rem;
+  height: 3rem;
+  vertical-align: top;
+  line-height: 1.35rem;
+  text-indent: 1rem;
+  font-family: "lato";
+  font-style: italic;
+  border: 1px solid #2F7F40;
+  border-right: none;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  color: #060F08;
+  box-shadow: inset 0 1px 1px #ccc,
+    0 1px 3px #19763e;
 }
 .subscribe-input::placeholder {
-    color: #ddd;
+  color: #ddd;
 }
 .subscribe-button {
-    padding-right: 1rem;
-    padding-left: 1rem;
-    height: 3rem;
-    line-height: 3rem;
-    letter-spacing: 0.1rem;
-    vertical-align: top;
-    font-family: "lato";
-    font-weight: bold;
-    border: 1px solid #2F7F40;
-    outline: none;
-    border-top-right-radius: 1.5rem;
-    border-bottom-right-radius: 1.5rem;
-    color: #EEEEEE;
-    box-shadow: inset 0 1px 1px #24e1b4,
-        0 1px 3px #19763e;
-    text-shadow: 0 1px 1px #19763e;
-    background-color: #3ecd89;
-    -webkit-appearance: none;
+  margin-left: -5px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  height: 3rem;
+  letter-spacing: 0.1rem;
+  vertical-align: top;
+  font-family: "lato";
+  font-weight: bold;
+  border: 1px solid #2F7F40;
+  outline: none;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  color: #EEEEEE;
+  box-shadow: inset 0 1px 1px #24e1b4,
+    0 1px 3px #19763e;
+  text-shadow: 0 1px 1px #19763e;
+  background-color: #3ecd89;
+  -webkit-appearance: none;
 }
 
 @media screen and ( max-width: 33rem ) {
-    .hero {
-        padding-top: 3rem;
-    }
-    .hero-title {
-        font-size: 3.2rem;
-    }
-    .hero-tagline {
-        font-size: 1.25rem;
-    }
-    .title-kern {
-        letter-spacing: 0rem;
-    }
-    .subcribe-input {
-        
-    }
+  .hero {
+    padding-top: 3rem;
+  }
+  .hero-title {
+    font-size: 3.2rem;
+  }
+  .hero-tagline {
+    font-size: 1.25rem;
+  }
+  .title-kern {
+    letter-spacing: 0rem;
+  }
 }
